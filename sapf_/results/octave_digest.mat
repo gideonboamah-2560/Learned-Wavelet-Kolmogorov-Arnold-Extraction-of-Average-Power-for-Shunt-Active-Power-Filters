@@ -1,0 +1,1276 @@
+# Created by Octave 8.4.0, Fri Oct 02 20:04:40 2026 UTC <root@vm>
+# name: D
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 20
+# name: pq_pi_steady
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+1
+
+
+# name: thd_mean
+# type: scalar
+4.2438310000000001
+
+
+# name: thd_std
+# type: scalar
+0
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.876196
+
+
+# name: vdcp2p_std
+# type: scalar
+0
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00014799999997
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: pq_pi_load_step
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+1
+
+
+# name: thd_mean
+# type: scalar
+4.2712310000000002
+
+
+# name: thd_std
+# type: scalar
+0
+
+
+# name: vdcp2p_mean
+# type: scalar
+2.3427600000000002
+
+
+# name: vdcp2p_std
+# type: scalar
+0
+
+
+# name: vdcmean_mean
+# type: scalar
+800.000225
+
+
+# name: settle_mean
+# type: scalar
+34.219999999999999
+
+
+# name: settle_std
+# type: scalar
+0
+
+
+# name: vdcpeak_mean
+# type: scalar
+13.717014000000001
+
+
+# name: vdcpeak_std
+# type: scalar
+0
+
+
+# name: vdcsettle_mean
+# type: scalar
+59.57
+
+
+# name: vdcsettle_std
+# type: scalar
+0
+
+
+
+
+# name: pq_pi_supraharmonic
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+1
+
+
+# name: thd_mean
+# type: scalar
+4.7647680000000001
+
+
+# name: thd_std
+# type: scalar
+0
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.939899
+
+
+# name: vdcp2p_std
+# type: scalar
+0
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00124400000004
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: pq_pi_weak_grid
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+1
+
+
+# name: thd_mean
+# type: scalar
+5.2973730000000003
+
+
+# name: thd_std
+# type: scalar
+0
+
+
+# name: vdcp2p_mean
+# type: scalar
+2.0264829999999998
+
+
+# name: vdcp2p_std
+# type: scalar
+0
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00016300000004
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: fixed_wnn_steady
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.637848
+
+
+# name: thd_std
+# type: scalar
+0.16927547158207337
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.8409519999999999
+
+
+# name: vdcp2p_std
+# type: scalar
+0.0039707796883400254
+
+
+# name: vdcmean_mean
+# type: scalar
+800.0001417499999
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: fixed_wnn_load_step
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.6632432499999998
+
+
+# name: thd_std
+# type: scalar
+0.16982045389837458
+
+
+# name: vdcp2p_mean
+# type: scalar
+2.29850325
+
+
+# name: vdcp2p_std
+# type: scalar
+0.0049835515699148073
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00021650000008
+
+
+# name: settle_mean
+# type: scalar
+7.1174999999999997
+
+
+# name: settle_std
+# type: scalar
+0.01258305739211806
+
+
+# name: vdcpeak_mean
+# type: scalar
+4.7524122499999999
+
+
+# name: vdcpeak_std
+# type: scalar
+0.064088426793896758
+
+
+# name: vdcsettle_mean
+# type: scalar
+4.7174999999999994
+
+
+# name: vdcsettle_std
+# type: scalar
+0.042720018726587525
+
+
+
+
+# name: fixed_wnn_supraharmonic
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+4.14472475
+
+
+# name: thd_std
+# type: scalar
+0.16409266553459972
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.90059
+
+
+# name: vdcp2p_std
+# type: scalar
+0.0075264921001308672
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00123674999998
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: fixed_wnn_weak_grid
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+4.6189179999999999
+
+
+# name: thd_std
+# type: scalar
+0.17413034128682633
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.9866215
+
+
+# name: vdcp2p_std
+# type: scalar
+0.026619376470283288
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00033950000011
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: gru_steady
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.8772362500000002
+
+
+# name: thd_std
+# type: scalar
+0.10173104759241398
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.8414442499999999
+
+
+# name: vdcp2p_std
+# type: scalar
+0.011940974454233921
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00014249999992
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: gru_load_step
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.9033704999999999
+
+
+# name: thd_std
+# type: scalar
+0.1020049089488671
+
+
+# name: vdcp2p_mean
+# type: scalar
+2.2991419999999998
+
+
+# name: vdcp2p_std
+# type: scalar
+0.014950623866581504
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00021775000005
+
+
+# name: settle_mean
+# type: scalar
+7.1100000000000003
+
+
+# name: settle_std
+# type: scalar
+0
+
+
+# name: vdcpeak_mean
+# type: scalar
+4.8197522500000005
+
+
+# name: vdcpeak_std
+# type: scalar
+0.052800742711790388
+
+
+# name: vdcsettle_mean
+# type: scalar
+4.7525000000000004
+
+
+# name: vdcsettle_std
+# type: scalar
+0.028722813232689919
+
+
+
+
+# name: gru_supraharmonic
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+4.3576192499999999
+
+
+# name: thd_std
+# type: scalar
+0.093765624164277986
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.89587525
+
+
+# name: vdcp2p_std
+# type: scalar
+0.017303676610766868
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00122950000002
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: gru_weak_grid
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+4.8692644999999999
+
+
+# name: thd_std
+# type: scalar
+0.10503759157082784
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.9783182500000001
+
+
+# name: vdcp2p_std
+# type: scalar
+0.014993442841789191
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00014249999992
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: wavkan_steady
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.1441015000000001
+
+
+# name: thd_std
+# type: scalar
+0.043102763573426142
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.8037692500000002
+
+
+# name: vdcp2p_std
+# type: scalar
+0.041797433090043579
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00013824999996
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: wavkan_load_step
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.1663619999999999
+
+
+# name: thd_std
+# type: scalar
+0.044025845651541433
+
+
+# name: vdcp2p_mean
+# type: scalar
+2.2516227500000001
+
+
+# name: vdcp2p_std
+# type: scalar
+0.052454793326412556
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00021049999998
+
+
+# name: settle_mean
+# type: scalar
+7.2599999999999998
+
+
+# name: settle_std
+# type: scalar
+0.20688160865577204
+
+
+# name: vdcpeak_mean
+# type: scalar
+3.8921682500000001
+
+
+# name: vdcpeak_std
+# type: scalar
+0.88885234990571782
+
+
+# name: vdcsettle_mean
+# type: scalar
+2.2974999999999999
+
+
+# name: vdcsettle_std
+# type: scalar
+2.653178910916739
+
+
+
+
+# name: wavkan_supraharmonic
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+3.5187437500000001
+
+
+# name: thd_std
+# type: scalar
+0.19178891212193847
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.8408544999999998
+
+
+# name: vdcp2p_std
+# type: scalar
+0.047780537310359646
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00117850000015
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: wavkan_weak_grid
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: n
+# type: scalar
+4
+
+
+# name: thd_mean
+# type: scalar
+5.1199875000000006
+
+
+# name: thd_std
+# type: scalar
+1.4033233883163447
+
+
+# name: vdcp2p_mean
+# type: scalar
+1.9615972500000001
+
+
+# name: vdcp2p_std
+# type: scalar
+0.06215679556506002
+
+
+# name: vdcmean_mean
+# type: scalar
+800.00049475000003
+
+
+# name: settle_mean
+# type: scalar
+NaN
+
+
+# name: settle_std
+# type: scalar
+NaN
+
+
+# name: vdcpeak_mean
+# type: scalar
+NaN
+
+
+# name: vdcpeak_std
+# type: scalar
+NaN
+
+
+# name: vdcsettle_mean
+# type: scalar
+NaN
+
+
+# name: vdcsettle_std
+# type: scalar
+NaN
+
+
+
+
+# name: extract
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: wnn_mean
+# type: scalar
+35.042525000000005
+
+
+# name: wnn_std
+# type: scalar
+13.410075166922072
+
+
+# name: gru_mean
+# type: scalar
+35.300274999999999
+
+
+# name: gru_std
+# type: scalar
+13.894357146068327
+
+
+# name: wavkan_mean
+# type: scalar
+34.384650000000001
+
+
+# name: wavkan_std
+# type: scalar
+13.002405024327871
+
+
+
+
+# name: cert
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 5
+# name: By_min
+# type: scalar
+2.0627
+
+
+# name: By_max
+# type: scalar
+3.3837000000000002
+
+
+# name: Lip_min
+# type: scalar
+10.1251
+
+
+# name: Lip_max
+# type: scalar
+76.308899999999994
+
+
+# name: aMin
+# type: scalar
+0.18720000000000001
+
+
+
+
+# name: wc
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: hz
+# type: matrix
+# rows: 3
+# columns: 1
+ 700
+ 1500
+ 2500
+
+
+# name: thd
+# type: matrix
+# rows: 3
+# columns: 1
+ 8.5460999999999991
+ 4.2438000000000002
+ 2.6086999999999998
+
+
+
+
+# name: tests
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 5
+# name: steady_thd
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: wavkan_vs_wnn
+# type: scalar
+0.0078339644946081588
+
+
+# name: wavkan_vs_gru
+# type: scalar
+0.00017441277578544856
+
+
+# name: wavkan_vs_pqpi
+# type: scalar
+1.657442132074749e-05
+
+
+
+
+# name: weak_thd
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: wavkan_vs_wnn
+# type: scalar
+0.52822310607673195
+
+
+# name: wavkan_vs_gru
+# type: scalar
+0.74493688035629635
+
+
+
+
+# name: settle
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: wavkan_vs_wnn
+# type: scalar
+0.26218849849618797
+
+
+# name: wavkan_vs_gru
+# type: scalar
+0.24290789700188897
+
+
+# name: wavkan_vs_pqpi
+# type: scalar
+1.2455573639158501e-07
+
+
+
+
+# name: vdcpeak
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: wavkan_vs_wnn
+# type: scalar
+0.14812992879508924
+
+
+# name: wavkan_vs_gru
+# type: scalar
+0.12793798421517377
+
+
+
+
+# name: extract
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: wavkan_vs_wnn
+# type: scalar
+0.94613368151846267
+
+
+# name: wavkan_vs_gru
+# type: scalar
+0.92648268554236046
+
+
+
+
+
+
+
+

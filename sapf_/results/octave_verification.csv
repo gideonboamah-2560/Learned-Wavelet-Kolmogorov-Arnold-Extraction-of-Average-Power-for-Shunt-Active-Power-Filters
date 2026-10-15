@@ -1,0 +1,17 @@
+controller,scenario,thd_pct,vdc_p2p_V,vdc_mean_V,settle_ms
+pq_pi,steady,4.2438,1.8762,800.0001,
+pq_pi,load_step,4.2712,2.3428,800.0002,34.2200
+pq_pi,supraharmonic,4.7648,1.9401,800.0012,
+pq_pi,weak_grid,5.2974,2.0250,800.0001,
+fixed_wnn,steady,3.7090,1.8440,800.0001,
+fixed_wnn,load_step,3.7348,2.3023,800.0002,7.1200
+fixed_wnn,supraharmonic,4.2486,1.9107,800.0013,
+fixed_wnn,weak_grid,4.7011,1.9777,800.0001,
+gru,steady,3.8147,1.8412,800.0001,
+gru,load_step,3.8408,2.2989,800.0002,7.1100
+gru,supraharmonic,4.2903,1.8930,800.0012,
+gru,weak_grid,4.8216,1.9771,800.0001,
+wavkan,steady,3.2284,1.8147,800.0001,
+wavkan,load_step,3.2521,2.2655,800.0002,7.1600
+wavkan,supraharmonic,3.6699,1.8335,800.0013,
+wavkan,weak_grid,4.2914,1.9438,800.0001,

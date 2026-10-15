@@ -1,0 +1,63 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+Generating datasets ...
+train=69650  val=14925  test=14925
+
+--- Training FixedWNN ---
+  [WNN] epoch   5  trainLoss=0.000200  valLoss=0.000283
+  [WNN] epoch  10  trainLoss=0.000198  valLoss=0.000400
+  [WNN] epoch  15  trainLoss=0.000239  valLoss=0.000955
+  [WNN] epoch  20  trainLoss=0.000211  valLoss=0.000266
+  [WNN] epoch  25  trainLoss=0.000215  valLoss=0.003425
+  [WNN] epoch  30  trainLoss=0.000188  valLoss=0.000215
+  [WNN] epoch  35  trainLoss=0.000205  valLoss=0.028308
+  [WNN] epoch  40  trainLoss=0.000215  valLoss=0.000400
+  [WNN] epoch  45  trainLoss=0.000191  valLoss=0.000757
+  [WNN] epoch  50  trainLoss=0.000192  valLoss=0.001476
+  [WNN] epoch  55  trainLoss=0.000188  valLoss=0.000797
+  [WNN] epoch  60  trainLoss=0.000190  valLoss=0.000222
+  [WNN] using best checkpoint, valLoss=0.000204
+
+--- Training GRULite ---
+  [GRU] epoch   5  trainLoss=0.000191  valLoss=0.000226
+  [GRU] epoch  10  trainLoss=0.000200  valLoss=0.000207
+  [GRU] epoch  15  trainLoss=0.000221  valLoss=0.000774
+  [GRU] epoch  20  trainLoss=0.000196  valLoss=0.011130
+  [GRU] epoch  25  trainLoss=0.000235  valLoss=0.001778
+  [GRU] epoch  30  trainLoss=0.000271  valLoss=0.015148
+  [GRU] epoch  35  trainLoss=0.000189  valLoss=0.000407
+  [GRU] epoch  40  trainLoss=0.000196  valLoss=0.002497
+  [GRU] using best checkpoint, valLoss=0.000201
+
+--- Training WavKAN ---
+  [WavKAN] epoch   5  trainLoss=0.000249  valLoss=0.000464  *
+  [WavKAN] epoch  10  trainLoss=0.000207  valLoss=0.000346  *
+  [WavKAN] epoch  15  trainLoss=0.000181  valLoss=0.000381
+  [WavKAN] epoch  20  trainLoss=0.000221  valLoss=0.000467
+  [WavKAN] epoch  25  trainLoss=0.000147  valLoss=0.000832
+  [WavKAN] epoch  30  trainLoss=0.000136  valLoss=0.000621
+  [WavKAN] epoch  35  trainLoss=0.000161  valLoss=0.001128
+  [WavKAN] epoch  40  trainLoss=0.000171  valLoss=0.000199  *
+  [WavKAN] epoch  45  trainLoss=0.000148  valLoss=0.000196
+  [WavKAN] epoch  50  trainLoss=0.000155  valLoss=0.000424
+  [WavKAN] epoch  55  trainLoss=0.000188  valLoss=0.000353
+  [WavKAN] epoch  60  trainLoss=0.000134  valLoss=0.000422
+  [WavKAN] using best checkpoint, valLoss=0.000179
+
+=== Validation set (Watts) ===
+  AnalyticLPF  RMSE= 1987.25 W   MAE= 1801.45 W
+  FixedWNN    RMSE=   41.40 W   MAE=    8.13 W
+  GRULite     RMSE=   41.30 W   MAE=    9.01 W
+  WavKAN      RMSE=   40.09 W   MAE=   13.27 W
+
+=== Held-out TEST set (Watts) ===
+  AnalyticLPF  RMSE= 1995.89 W   MAE= 1890.87 W
+  FixedWNN    RMSE=   42.04 W   MAE=    8.85 W
+  GRULite     RMSE=   42.70 W   MAE=   10.07 W
+  WavKAN      RMSE=   41.18 W   MAE=   11.72 W
+
+Saved trained parameters -> results/trainedControllers.mat
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+Wrote 4 Simulink-ready controller files to /home/claude/sapf_matlab/scripts/../simulink
+DONE

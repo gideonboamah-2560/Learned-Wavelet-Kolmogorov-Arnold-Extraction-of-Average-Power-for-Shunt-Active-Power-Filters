@@ -1,0 +1,226 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+=== Classical LPF baseline ===
+  steady         THD=4.24%  Vdc_p2p=1.88  settle=NaN
+  load_step      THD=4.27%  Vdc_p2p=2.34  settle=34.22
+  supraharmonic  THD=4.76%  Vdc_p2p=1.94  settle=NaN
+  weak_grid      THD=5.30%  Vdc_p2p=2.03  settle=NaN
+
+=== Current-loop bandwidth sensitivity (steady scenario, pq_pi) ===
+  wc=  700 Hz  THD=8.55%
+  wc= 1500 Hz  THD=4.24%
+  wc= 2500 Hz  THD=2.61%
+
+=== Seed 0 ===
+  training FixedWNN...
+  [WNN-s0] epoch   5  trainLoss=0.000200  valLoss=0.000283
+  [WNN-s0] epoch  10  trainLoss=0.000198  valLoss=0.000400
+  [WNN-s0] epoch  15  trainLoss=0.000239  valLoss=0.000955
+  [WNN-s0] epoch  20  trainLoss=0.000211  valLoss=0.000266
+  [WNN-s0] epoch  25  trainLoss=0.000215  valLoss=0.003425
+  [WNN-s0] epoch  30  trainLoss=0.000188  valLoss=0.000215
+  [WNN-s0] epoch  35  trainLoss=0.000205  valLoss=0.028308
+  [WNN-s0] epoch  40  trainLoss=0.000215  valLoss=0.000400
+  [WNN-s0] epoch  45  trainLoss=0.000191  valLoss=0.000757
+  [WNN-s0] epoch  50  trainLoss=0.000192  valLoss=0.001476
+  [WNN-s0] epoch  55  trainLoss=0.000188  valLoss=0.000797
+  [WNN-s0] epoch  60  trainLoss=0.000190  valLoss=0.000222
+  [WNN-s0] using best checkpoint, valLoss=0.000204
+  training GRU...
+  [GRU-s0] epoch   5  trainLoss=0.000203  valLoss=0.000314
+  [GRU-s0] epoch  10  trainLoss=0.000205  valLoss=0.000258
+  [GRU-s0] epoch  15  trainLoss=0.000190  valLoss=0.000200  *
+  [GRU-s0] epoch  20  trainLoss=0.000257  valLoss=0.000280
+  [GRU-s0] epoch  25  trainLoss=0.000229  valLoss=0.000569
+  [GRU-s0] epoch  30  trainLoss=0.000185  valLoss=0.000220
+  [GRU-s0] epoch  35  trainLoss=0.000174  valLoss=0.008633
+  [GRU-s0] epoch  40  trainLoss=0.000171  valLoss=0.000648
+  [GRU-s0] using best checkpoint, valLoss=0.000200
+  training WavKAN...
+  [WavKAN-s0] epoch   5  trainLoss=0.000207  valLoss=0.000240  *
+  [WavKAN-s0] epoch  10  trainLoss=0.000269  valLoss=0.000281
+  [WavKAN-s0] epoch  15  trainLoss=0.000155  valLoss=0.000668
+  [WavKAN-s0] epoch  20  trainLoss=0.000143  valLoss=0.000304
+  [WavKAN-s0] epoch  25  trainLoss=0.000139  valLoss=0.001285
+  [WavKAN-s0] epoch  30  trainLoss=0.000133  valLoss=0.000292
+  [WavKAN-s0] epoch  35  trainLoss=0.000145  valLoss=0.001218
+  [WavKAN-s0] epoch  40  trainLoss=0.000162  valLoss=0.000336
+  [WavKAN-s0] epoch  45  trainLoss=0.000124  valLoss=0.000317
+  [WavKAN-s0] epoch  50  trainLoss=0.000138  valLoss=0.000598
+  [WavKAN-s0] epoch  55  trainLoss=0.000144  valLoss=0.000826
+  [WavKAN-s0] epoch  60  trainLoss=0.000156  valLoss=0.000328
+  [WavKAN-s0] using best checkpoint, valLoss=0.000200
+  open-loop test RMSE: WNN=42.0W  GRU=42.6W  WavKAN=41.9W
+  [seed 0] fixed_wnn  steady         THD=3.71%  Vdc_p2p=1.84  settle=NaN
+  [seed 0] fixed_wnn  load_step      THD=3.73%  Vdc_p2p=2.30  settle=7.12
+  [seed 0] fixed_wnn  supraharmonic  THD=4.25%  Vdc_p2p=1.91  settle=NaN
+  [seed 0] fixed_wnn  weak_grid      THD=4.70%  Vdc_p2p=1.98  settle=NaN
+  [seed 0] gru        steady         THD=4.00%  Vdc_p2p=1.86  settle=NaN
+  [seed 0] gru        load_step      THD=4.03%  Vdc_p2p=2.32  settle=7.11
+  [seed 0] gru        supraharmonic  THD=4.47%  Vdc_p2p=1.92  settle=NaN
+  [seed 0] gru        weak_grid      THD=4.98%  Vdc_p2p=2.00  settle=NaN
+  [seed 0] wavkan     steady         THD=3.17%  Vdc_p2p=1.86  settle=NaN
+  [seed 0] wavkan     load_step      THD=3.19%  Vdc_p2p=2.32  settle=7.15
+  [seed 0] wavkan     supraharmonic  THD=3.66%  Vdc_p2p=1.90  settle=NaN
+  [seed 0] wavkan     weak_grid      THD=4.06%  Vdc_p2p=1.99  settle=NaN
+
+=== Seed 1 ===
+  training FixedWNN...
+  [WNN-s1] epoch   5  trainLoss=0.000208  valLoss=0.000184  *
+  [WNN-s1] epoch  10  trainLoss=0.000210  valLoss=0.002749
+  [WNN-s1] epoch  15  trainLoss=0.000193  valLoss=0.000332
+  [WNN-s1] epoch  20  trainLoss=0.000177  valLoss=0.000267
+  [WNN-s1] epoch  25  trainLoss=0.000210  valLoss=0.000457
+  [WNN-s1] epoch  30  trainLoss=0.000276  valLoss=0.000228
+  [WNN-s1] epoch  35  trainLoss=0.000205  valLoss=0.000166
+  [WNN-s1] epoch  40  trainLoss=0.000172  valLoss=0.000226
+  [WNN-s1] epoch  45  trainLoss=0.000200  valLoss=0.000163
+  [WNN-s1] epoch  50  trainLoss=0.000240  valLoss=0.000174
+  [WNN-s1] epoch  55  trainLoss=0.000338  valLoss=0.000195
+  [WNN-s1] epoch  60  trainLoss=0.000177  valLoss=0.000181
+  [WNN-s1] using best checkpoint, valLoss=0.000155
+  training GRU...
+  [GRU-s1] epoch   5  trainLoss=0.000179  valLoss=0.000161  *
+  [GRU-s1] epoch  10  trainLoss=0.000178  valLoss=0.000404
+  [GRU-s1] epoch  15  trainLoss=0.000221  valLoss=0.000560
+  [GRU-s1] epoch  20  trainLoss=0.000212  valLoss=0.000364
+  [GRU-s1] epoch  25  trainLoss=0.000204  valLoss=0.000736
+  [GRU-s1] epoch  30  trainLoss=0.000182  valLoss=0.001112
+  [GRU-s1] epoch  35  trainLoss=0.000185  valLoss=0.000436
+  [GRU-s1] epoch  40  trainLoss=0.000233  valLoss=0.000227
+  [GRU-s1] using best checkpoint, valLoss=0.000155
+  training WavKAN...
+  [WavKAN-s1] epoch   5  trainLoss=0.000221  valLoss=0.000266
+  [WavKAN-s1] epoch  10  trainLoss=0.000171  valLoss=0.000188  *
+  [WavKAN-s1] epoch  15  trainLoss=0.000156  valLoss=0.000164  *
+  [WavKAN-s1] epoch  20  trainLoss=0.000140  valLoss=0.000248
+  [WavKAN-s1] epoch  25  trainLoss=0.000176  valLoss=0.000294
+  [WavKAN-s1] epoch  30  trainLoss=0.000146  valLoss=0.000150  *
+  [WavKAN-s1] epoch  35  trainLoss=0.000125  valLoss=0.000372
+  [WavKAN-s1] epoch  40  trainLoss=0.000150  valLoss=0.002036
+  [WavKAN-s1] epoch  45  trainLoss=0.000112  valLoss=0.000132  *
+  [WavKAN-s1] epoch  50  trainLoss=0.000114  valLoss=0.000330
+  [WavKAN-s1] epoch  55  trainLoss=0.000102  valLoss=0.000109  *
+  [WavKAN-s1] epoch  60  trainLoss=0.000126  valLoss=0.000248
+  [WavKAN-s1] using best checkpoint, valLoss=0.000109
+  open-loop test RMSE: WNN=19.1W  GRU=18.9W  WavKAN=17.6W
+  [seed 1] fixed_wnn  steady         THD=3.84%  Vdc_p2p=1.84  settle=NaN
+  [seed 1] fixed_wnn  load_step      THD=3.87%  Vdc_p2p=2.30  settle=7.1
+  [seed 1] fixed_wnn  supraharmonic  THD=4.32%  Vdc_p2p=1.89  settle=NaN
+  [seed 1] fixed_wnn  weak_grid      THD=4.82%  Vdc_p2p=1.98  settle=NaN
+  [seed 1] gru        steady         THD=3.88%  Vdc_p2p=1.84  settle=NaN
+  [seed 1] gru        load_step      THD=3.91%  Vdc_p2p=2.30  settle=7.11
+  [seed 1] gru        supraharmonic  THD=4.37%  Vdc_p2p=1.90  settle=NaN
+  [seed 1] gru        weak_grid      THD=4.89%  Vdc_p2p=1.98  settle=NaN
+  [seed 1] wavkan     steady         THD=3.08%  Vdc_p2p=1.78  settle=NaN
+  [seed 1] wavkan     load_step      THD=3.10%  Vdc_p2p=2.22  settle=7.57
+  [seed 1] wavkan     supraharmonic  THD=3.25%  Vdc_p2p=1.81  settle=NaN
+  [seed 1] wavkan     weak_grid      THD=7.02%  Vdc_p2p=2.03  settle=NaN
+
+=== Seed 2 ===
+  training FixedWNN...
+  [WNN-s2] epoch   5  trainLoss=0.000197  valLoss=0.005377
+  [WNN-s2] epoch  10  trainLoss=0.000196  valLoss=0.000203  *
+  [WNN-s2] epoch  15  trainLoss=0.000201  valLoss=0.000246
+  [WNN-s2] epoch  20  trainLoss=0.000803  valLoss=0.000214
+  [WNN-s2] epoch  25  trainLoss=0.000176  valLoss=0.000314
+  [WNN-s2] epoch  30  trainLoss=0.000212  valLoss=0.000301
+  [WNN-s2] epoch  35  trainLoss=0.000193  valLoss=0.000604
+  [WNN-s2] epoch  40  trainLoss=0.000185  valLoss=0.000593
+  [WNN-s2] epoch  45  trainLoss=0.000198  valLoss=0.000880
+  [WNN-s2] epoch  50  trainLoss=0.000220  valLoss=0.000206
+  [WNN-s2] epoch  55  trainLoss=0.000216  valLoss=0.000513
+  [WNN-s2] epoch  60  trainLoss=0.000270  valLoss=0.001253
+  [WNN-s2] using best checkpoint, valLoss=0.000198
+  training GRU...
+  [GRU-s2] epoch   5  trainLoss=0.000200  valLoss=0.000360
+  [GRU-s2] epoch  10  trainLoss=0.000193  valLoss=0.000291
+  [GRU-s2] epoch  15  trainLoss=0.000223  valLoss=0.000608
+  [GRU-s2] epoch  20  trainLoss=0.000257  valLoss=0.000432
+  [GRU-s2] epoch  25  trainLoss=0.000194  valLoss=0.000334
+  [GRU-s2] epoch  30  trainLoss=0.000207  valLoss=0.000203
+  [GRU-s2] epoch  35  trainLoss=0.000219  valLoss=0.000199
+  [GRU-s2] epoch  40  trainLoss=0.000211  valLoss=0.000501
+  [GRU-s2] using best checkpoint, valLoss=0.000199
+  training WavKAN...
+  [WavKAN-s2] epoch   5  trainLoss=0.000270  valLoss=0.000223  *
+  [WavKAN-s2] epoch  10  trainLoss=0.000225  valLoss=0.000200  *
+  [WavKAN-s2] epoch  15  trainLoss=0.000179  valLoss=0.000397
+  [WavKAN-s2] epoch  20  trainLoss=0.000174  valLoss=0.000262
+  [WavKAN-s2] epoch  25  trainLoss=0.000157  valLoss=0.000176  *
+  [WavKAN-s2] epoch  30  trainLoss=0.000128  valLoss=0.002054
+  [WavKAN-s2] epoch  35  trainLoss=0.000122  valLoss=0.000156  *
+  [WavKAN-s2] epoch  40  trainLoss=0.000126  valLoss=0.000201
+  [WavKAN-s2] epoch  45  trainLoss=0.000120  valLoss=0.000398
+  [WavKAN-s2] epoch  50  trainLoss=0.000109  valLoss=0.000972
+  [WavKAN-s2] epoch  55  trainLoss=0.000111  valLoss=0.000149  *
+  [WavKAN-s2] epoch  60  trainLoss=0.000113  valLoss=0.000839
+  [WavKAN-s2] using best checkpoint, valLoss=0.000149
+  open-loop test RMSE: WNN=29.6W  GRU=29.5W  WavKAN=31.1W
+  [seed 2] fixed_wnn  steady         THD=3.52%  Vdc_p2p=1.84  settle=NaN
+  [seed 2] fixed_wnn  load_step      THD=3.54%  Vdc_p2p=2.30  settle=7.12
+  [seed 2] fixed_wnn  supraharmonic  THD=4.02%  Vdc_p2p=1.90  settle=NaN
+  [seed 2] fixed_wnn  weak_grid      THD=4.52%  Vdc_p2p=2.02  settle=NaN
+  [seed 2] gru        steady         THD=3.76%  Vdc_p2p=1.83  settle=NaN
+  [seed 2] gru        load_step      THD=3.78%  Vdc_p2p=2.28  settle=7.11
+  [seed 2] gru        supraharmonic  THD=4.24%  Vdc_p2p=1.88  settle=NaN
+  [seed 2] gru        weak_grid      THD=4.73%  Vdc_p2p=1.96  settle=NaN
+  [seed 2] wavkan     steady         THD=3.15%  Vdc_p2p=1.77  settle=NaN
+  [seed 2] wavkan     load_step      THD=3.17%  Vdc_p2p=2.20  settle=7.15
+  [seed 2] wavkan     supraharmonic  THD=3.51%  Vdc_p2p=1.80  settle=NaN
+  [seed 2] wavkan     weak_grid      THD=5.33%  Vdc_p2p=1.90  settle=NaN
+
+=== Seed 3 ===
+  training FixedWNN...
+  [WNN-s3] epoch   5  trainLoss=0.000227  valLoss=0.001907
+  [WNN-s3] epoch  10  trainLoss=0.000153  valLoss=0.000387
+  [WNN-s3] epoch  15  trainLoss=0.000145  valLoss=0.002521
+  [WNN-s3] epoch  20  trainLoss=0.000148  valLoss=0.000969
+  [WNN-s3] epoch  25  trainLoss=0.000161  valLoss=0.001316
+  [WNN-s3] epoch  30  trainLoss=0.000143  valLoss=0.001578
+  [WNN-s3] epoch  35  trainLoss=0.000269  valLoss=0.000330
+  [WNN-s3] epoch  40  trainLoss=0.000157  valLoss=0.002229
+  [WNN-s3] epoch  45  trainLoss=0.000171  valLoss=0.000317
+  [WNN-s3] epoch  50  trainLoss=0.000154  valLoss=0.000230
+  [WNN-s3] epoch  55  trainLoss=0.000148  valLoss=0.000194
+  [WNN-s3] epoch  60  trainLoss=0.000166  valLoss=0.000216
+  [WNN-s3] using best checkpoint, valLoss=0.000194
+  training GRU...
+  [GRU-s3] epoch   5  trainLoss=0.000147  valLoss=0.000487
+  [GRU-s3] epoch  10  trainLoss=0.000146  valLoss=0.000193  *
+  [GRU-s3] epoch  15  trainLoss=0.000153  valLoss=0.000876
+  [GRU-s3] epoch  20  trainLoss=0.000152  valLoss=0.001547
+  [GRU-s3] epoch  25  trainLoss=0.000161  valLoss=0.000558
+  [GRU-s3] epoch  30  trainLoss=0.000149  valLoss=0.000374
+  [GRU-s3] epoch  35  trainLoss=0.000210  valLoss=0.001063
+  [GRU-s3] epoch  40  trainLoss=0.000261  valLoss=0.000303
+  [GRU-s3] using best checkpoint, valLoss=0.000193
+  training WavKAN...
+  [WavKAN-s3] epoch   5  trainLoss=0.000271  valLoss=0.000716
+  [WavKAN-s3] epoch  10  trainLoss=0.000180  valLoss=0.000385  *
+  [WavKAN-s3] epoch  15  trainLoss=0.000152  valLoss=0.000276  *
+  [WavKAN-s3] epoch  20  trainLoss=0.000166  valLoss=0.000828
+  [WavKAN-s3] epoch  25  trainLoss=0.000138  valLoss=0.000988
+  [WavKAN-s3] epoch  30  trainLoss=0.000140  valLoss=0.000268  *
+  [WavKAN-s3] epoch  35  trainLoss=0.000152  valLoss=0.000292
+  [WavKAN-s3] epoch  40  trainLoss=0.000133  valLoss=0.000291
+  [WavKAN-s3] epoch  45  trainLoss=0.000124  valLoss=0.000404
+  [WavKAN-s3] epoch  50  trainLoss=0.000104  valLoss=0.001352
+  [WavKAN-s3] epoch  55  trainLoss=0.000089  valLoss=0.000447
+  [WavKAN-s3] epoch  60  trainLoss=0.000144  valLoss=0.000668
+  [WavKAN-s3] using best checkpoint, valLoss=0.000249
+  open-loop test RMSE: WNN=49.4W  GRU=50.2W  WavKAN=46.9W
+  [seed 3] fixed_wnn  steady         THD=3.48%  Vdc_p2p=1.84  settle=NaN
+  [seed 3] fixed_wnn  load_step      THD=3.51%  Vdc_p2p=2.29  settle=7.13
+  [seed 3] fixed_wnn  supraharmonic  THD=3.99%  Vdc_p2p=1.90  settle=NaN
+  [seed 3] fixed_wnn  weak_grid      THD=4.44%  Vdc_p2p=1.96  settle=NaN
+  [seed 3] gru        steady         THD=3.87%  Vdc_p2p=1.84  settle=NaN
+  [seed 3] gru        load_step      THD=3.89%  Vdc_p2p=2.30  settle=7.11
+  [seed 3] gru        supraharmonic  THD=4.34%  Vdc_p2p=1.89  settle=NaN
+  [seed 3] gru        weak_grid      THD=4.88%  Vdc_p2p=1.98  settle=NaN
+  [seed 3] wavkan     steady         THD=3.18%  Vdc_p2p=1.81  settle=NaN
+  [seed 3] wavkan     load_step      THD=3.20%  Vdc_p2p=2.26  settle=7.17
+  [seed 3] wavkan     supraharmonic  THD=3.65%  Vdc_p2p=1.86  settle=NaN
+  [seed 3] wavkan     weak_grid      THD=4.07%  Vdc_p2p=1.92  settle=NaN
+
+Saved results/octave_multiseed.csv, octave_extraction.csv, octave_cert.csv, octave_wc_sensitivity.csv

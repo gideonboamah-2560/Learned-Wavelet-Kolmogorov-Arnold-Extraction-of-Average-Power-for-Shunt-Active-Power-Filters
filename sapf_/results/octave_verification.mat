@@ -1,0 +1,679 @@
+# Created by Octave 8.4.0, Thu Oct 08 07:42:01 2026 UTC <root@vm>
+# name: results
+# type: cell
+# rows: 1
+# columns: 16
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 5
+pq_pi
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 6
+steady
+
+
+# name: thd_pct
+# type: scalar
+4.2438307644444846
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.876196087683411
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014766832237
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 5
+pq_pi
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+load_step
+
+
+# name: thd_pct
+# type: scalar
+4.2712308714912064
+
+
+# name: vdc_p2p_V
+# type: scalar
+2.3427540842498047
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00022508655104
+
+
+# name: settle_ms
+# type: scalar
+34.219999999999999
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 5
+pq_pi
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 13
+supraharmonic
+
+
+# name: thd_pct
+# type: scalar
+4.7647680971459572
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.940113717025838
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00124054565151
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 5
+pq_pi
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+weak_grid
+
+
+# name: thd_pct
+# type: scalar
+5.2973728116685797
+
+
+# name: vdc_p2p_V
+# type: scalar
+2.0249674966278235
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014764091327
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 9
+fixed_wnn
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 6
+steady
+
+
+# name: thd_pct
+# type: scalar
+3.7090176041464615
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.8439925408315503
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014375441924
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 9
+fixed_wnn
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+load_step
+
+
+# name: thd_pct
+# type: scalar
+3.7347795235580943
+
+
+# name: vdc_p2p_V
+# type: scalar
+2.3023113778797324
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00021956191847
+
+
+# name: settle_ms
+# type: scalar
+7.1200000000000152
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 9
+fixed_wnn
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 13
+supraharmonic
+
+
+# name: thd_pct
+# type: scalar
+4.2485948136086407
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.9107078500286434
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00127096780955
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 9
+fixed_wnn
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+weak_grid
+
+
+# name: thd_pct
+# type: scalar
+4.7010944944977977
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.9777189330432066
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014187304282
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 3
+gru
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 6
+steady
+
+
+# name: thd_pct
+# type: scalar
+3.814665620208844
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.841235157637243
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014283961866
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 3
+gru
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+load_step
+
+
+# name: thd_pct
+# type: scalar
+3.8407532982530541
+
+
+# name: vdc_p2p_V
+# type: scalar
+2.2988644494915889
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00021812695627
+
+
+# name: settle_ms
+# type: scalar
+7.1100000000000048
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 3
+gru
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 13
+supraharmonic
+
+
+# name: thd_pct
+# type: scalar
+4.290292413368527
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.8930166114867006
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00122203765409
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 3
+gru
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+weak_grid
+
+
+# name: thd_pct
+# type: scalar
+4.8216212690222386
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.9771364313719459
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014136189395
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 6
+wavkan
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 6
+steady
+
+
+# name: thd_pct
+# type: scalar
+3.2283970836657958
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.814722028765118
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014297341374
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 6
+wavkan
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+load_step
+
+
+# name: thd_pct
+# type: scalar
+3.2521498947211676
+
+
+# name: vdc_p2p_V
+# type: scalar
+2.2654689813263076
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00021831254287
+
+
+# name: settle_ms
+# type: scalar
+7.1600000000000001
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 6
+wavkan
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 13
+supraharmonic
+
+
+# name: thd_pct
+# type: scalar
+3.6698583772766589
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.8334876962471753
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00128977350209
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 6
+# name: controller
+# type: sq_string
+# elements: 1
+# length: 6
+wavkan
+
+
+# name: scenario
+# type: sq_string
+# elements: 1
+# length: 9
+weak_grid
+
+
+# name: thd_pct
+# type: scalar
+4.2914436368387152
+
+
+# name: vdc_p2p_V
+# type: scalar
+1.9437736664436898
+
+
+# name: vdc_mean_V
+# type: scalar
+800.00014379041465
+
+
+# name: settle_ms
+# type: scalar
+NaN
+
+
+
+
+
+
+
